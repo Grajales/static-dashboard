@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 238, 238);
+  margin: 25px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "One two three four"
+    "One five five five"
+    "One five five five";
+}
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.One { grid-area: One; }
+.box {
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 20px;
+  padding: 120px 0;
+  background-size: cover;
+  background-color: lightgrey;
+  
+}
+
+.bottombox {
+  height: 475px;
+  width: 800px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 60px;
+  background-color: rgb(211, 211, 211);
+  background-origin: padding-box, content-box;
+  background-clip: padding-box;
+   
+}
+.insidebox {
+  height: 330px;
+  width: 680px;
+  margin: 50px, 20px, 30px, 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 600;
+  padding: 60px;
+  background-color: grey;
+
+   
+}
+.sidebox {
+  height: 800px;
+  width: 250px;
+  margin: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  padding: 120px 0;
+  background-size: cover;
+  background-color: lightgrey;
+  
+}
+
+
+
